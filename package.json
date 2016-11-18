@@ -1,0 +1,20 @@
+{
+  "name": "marvel-jquery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SPellegrene/marvel-jquery.git"
+  },
+  "keywords": [],
+  "author": "Sam Pellegrene <pellegrenesam@gmail.com> (https://medium.com/@sampellegrene)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SPellegrene/marvel-jquery/issues"
+  },
+  "homepage": "https://github.com/SPellegrene/marvel-jquery#readme"
+}
