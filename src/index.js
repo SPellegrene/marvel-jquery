@@ -5,8 +5,7 @@ var linkID = $('#linkID').val();
     alert('Please enter the name of your hero')
 } else {
     console.log(linkID);
-$.ajax({url:"https://gateway.marvel.com:443/v1/public/characters?orderBy=name&limit=10&apikey=bc8bc29e1ad131498d1f3edfd064b9a1" + linkID})
-  .done(function(stuff){
+$.ajax({url:"https://gateway.marvel.com:443/v1/public/characters?apikey=bc8bc29e1ad131498d1f3edfd064b9a1" + linkID}).done(function(stuff){
   var holder = $('<div class="holders"></div>');
   $.each(stuff.data.results,function(req, res) {
     holder.append($('<img/>').attr('src',res.thumbnail.path + '/portrait_uncanny.' + res.thumbnail.extension));
