@@ -1,0 +1,91 @@
+
+@font-face {
+	font-family: 'BadaBoom BB';
+	src: url('BadaBoomBB.eot');
+	src: url('BadaBoomBB.eot?#iefix') format('embedded-opentype'),
+		url('BadaBoomBB.woff2') format('woff2'),
+		url('BadaBoomBB.woff') format('woff'),
+		url('BadaBoomBB.ttf') format('truetype'),
+		url('BadaBoomBB.svg#BadaBoomBB') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*{
+  background-color: red;
+}
+
+.container{
+  display:flex;
+  justify-content: center;
+  background-color: white;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 10px;
+}
+
+
+img{
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.headings {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  color: white;
+  font-family: 'BadaBoom BB';
+  text-align: center;
+  font-size: 42px;
+  letter-spacing: 3px;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  border-bottom: 3px dotted white;
+
+}
+
+h3 {
+  color: white;
+  width: 30rem;
+  text-align: center;
+  border-bottom: 3px dotted white;
+  line-height: 1.5rem;
+}
+
+#send {
+  width: 8rem;
+  border-radius: 5px;
+  background-color: white;
+  color: grey;
+
+}
+
+#linkID {
+  width: 15rem;
+  height: 2rem;
+  background-color: white;
+  font-size: 18px;
+  color: grey;
+  border-radius: 5px;
+}
+
+.holders{
+  display: flex;
+  flex-direction: column;
+  background-color:white;
+  text-align: center;
+  align-items: center;
+  color: red;
+  font-family: 'Badaboom BB';
+}
+
+/*#spidy {
+  width: 8rem;
+  height: 8rem;
+}*/
