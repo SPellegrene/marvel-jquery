@@ -7,7 +7,7 @@ $(function(){
     } else {
       console.log(linkID);
       $.ajax({
-        url: "http://gateway.marvel.com:80/v1/public/characters?nameStartsWith="+ encodeURIComponent(linkID) +"&apikey=bc8bc29e1ad131498d1f3edfd064b9a1",
+        url: "https://gateway.marvel.com/v1/public/characters?nameStartsWith="+ encodeURIComponent(linkID) +"&apikey=bc8bc29e1ad131498d1f3edfd064b9a1",
         crossOrigin: true
       })
       .then(function(response){
